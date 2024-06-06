@@ -42,7 +42,7 @@ constructor(uint _unlockTime) payable
 ### Deploy the Contract
 1. Compile the contracts: `npx hardhat compile`
 2. Start the Hardhat node: `npx hardhat node`
-3. Deploy the contract to the local network: `npx hardhat run scripts/deploy.js --network localhost`
+3. Deploy the contract to the local network: `npx hardhat run scripts/deploy_lock.js --network localhost`
 
 ## Notes
 - This contract is for educational purposes only and has not been audited.
